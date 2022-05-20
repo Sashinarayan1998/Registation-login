@@ -1,0 +1,116 @@
+
+#form{
+    margin: 0;
+    padding: 0;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 400px;
+}
+.textbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+input[type="text"],[type="password"]{
+    padding: 10px;
+    font-size: 18px;
+}
+label{
+    flex-basis: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+button[type="button"]{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 10px 0;
+}
+button[type="button"]:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    flex: 1;
+}
+.password{
+    text-align: right;
+}
+#icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+@media all and(max-width:480px){
+    .textbox{
+        flex-direction: column;
+    }
+    #icon{
+        flex-direction: column;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background:#f2f2f2;
+}
+.container{
+    background: white;
+    width: 700px;
+    padding: 25px;
+    margin: auto;
+    border-top: 5px solid blue;
+    box-shadow: 0  0 5px rgba(0, 0, 0, 0.5);
+}
+.container h2{
+    font-size: 24px;
+    line-height: 24px;padding: 30px;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.name{
+    width: 45%;
+    padding:8px 0 8px 40px;
+}
+.input-name span{
+    margin-left: 35px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+}
+#birthday{
+    width:auto;
+    padding:8px 0 8px 40px ;
+}
+.text{
+    position: absolute;
+    width:auto;
+    margin: auto;
+
+}
